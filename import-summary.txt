@@ -1,0 +1,372 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .DS_Store
+* .gitignore
+* TODO.txt
+* ant.properties
+* build.xml
+* ic_launcher-web.png
+* proguard-project.txt
+* resources/
+* resources/feature_demos/
+* resources/feature_demos/android/
+* resources/feature_demos/android/dynamic_resolution/
+* resources/feature_demos/android/dynamic_resolution/.classpath
+* resources/feature_demos/android/dynamic_resolution/.cproject
+* resources/feature_demos/android/dynamic_resolution/.project
+* resources/feature_demos/android/dynamic_resolution/.settings/
+* resources/feature_demos/android/dynamic_resolution/.settings/org.eclipse.jdt.core.prefs
+* resources/feature_demos/android/dynamic_resolution/AndroidManifest.xml
+* resources/feature_demos/android/dynamic_resolution/assets/
+* resources/feature_demos/android/dynamic_resolution/assets/courier+lucida_256.abc
+* resources/feature_demos/android/dynamic_resolution/assets/courier+lucida_256.dds
+* resources/feature_demos/android/dynamic_resolution/assets/demo_.frag
+* resources/feature_demos/android/dynamic_resolution/assets/demo_.vert
+* resources/feature_demos/android/dynamic_resolution/assets/utahcond+bold_1024.abc
+* resources/feature_demos/android/dynamic_resolution/assets/utahcond+bold_1024.dds
+* resources/feature_demos/android/dynamic_resolution/build.xml
+* resources/feature_demos/android/dynamic_resolution/doc/
+* resources/feature_demos/android/dynamic_resolution/doc/dynamic_resolution.docx
+* resources/feature_demos/android/dynamic_resolution/doc/dynamic_resolution.pdf
+* resources/feature_demos/android/dynamic_resolution/dynamic_resolution.vcxproj
+* resources/feature_demos/android/dynamic_resolution/dynamic_resolution.vcxproj.filters
+* resources/feature_demos/android/dynamic_resolution/dynamic_resolution.vcxproj.user
+* resources/feature_demos/android/dynamic_resolution/jni/
+* resources/feature_demos/android/dynamic_resolution/jni/Android.mk
+* resources/feature_demos/android/dynamic_resolution/jni/Application.mk
+* resources/feature_demos/android/dynamic_resolution/jni/engine.cpp
+* resources/feature_demos/android/dynamic_resolution/jni/engine.h
+* resources/feature_demos/android/dynamic_resolution/jni/main.cpp
+* resources/feature_demos/android/dynamic_resolution/jni/render_target.h
+* resources/feature_demos/android/dynamic_resolution/jni/resampler.cpp
+* resources/feature_demos/android/dynamic_resolution/jni/resampler.h
+* resources/feature_demos/android/dynamic_resolution/proguard-project.txt
+* resources/feature_demos/android/dynamic_resolution/project.properties
+* resources/feature_demos/android/dynamic_resolution/res/
+* resources/feature_demos/android/dynamic_resolution/res/drawable/
+* resources/feature_demos/android/dynamic_resolution/res/drawable/icon.png
+* resources/feature_demos/android/dynamic_resolution/res/values/
+* resources/feature_demos/android/dynamic_resolution/res/values/strings.xml
+* resources/feature_demos/android/dynamic_resolution/src/
+* resources/feature_demos/android/dynamic_resolution/src/do_not_remove.txt
+* resources/feature_demos/android/native_subclass/
+* resources/feature_demos/android/native_subclass/.classpath
+* resources/feature_demos/android/native_subclass/.cproject
+* resources/feature_demos/android/native_subclass/.project
+* resources/feature_demos/android/native_subclass/.settings/
+* resources/feature_demos/android/native_subclass/.settings/org.eclipse.jdt.core.prefs
+* resources/feature_demos/android/native_subclass/AndroidManifest.xml
+* resources/feature_demos/android/native_subclass/assets/
+* resources/feature_demos/android/native_subclass/assets/courier+lucida_256.abc
+* resources/feature_demos/android/native_subclass/assets/courier+lucida_256.dds
+* resources/feature_demos/android/native_subclass/assets/font.frag
+* resources/feature_demos/android/native_subclass/assets/font.vert
+* resources/feature_demos/android/native_subclass/assets/utahcond+bold_1024.abc
+* resources/feature_demos/android/native_subclass/assets/utahcond+bold_1024.dds
+* resources/feature_demos/android/native_subclass/build.xml
+* resources/feature_demos/android/native_subclass/jni/
+* resources/feature_demos/android/native_subclass/jni/Android.mk
+* resources/feature_demos/android/native_subclass/jni/Application.mk
+* resources/feature_demos/android/native_subclass/jni/engine.cpp
+* resources/feature_demos/android/native_subclass/jni/engine.h
+* resources/feature_demos/android/native_subclass/jni/main.cpp
+* resources/feature_demos/android/native_subclass/native_subclass.sdf
+* resources/feature_demos/android/native_subclass/native_subclass.vcxproj
+* resources/feature_demos/android/native_subclass/native_subclass.vcxproj.filters
+* resources/feature_demos/android/native_subclass/native_subclass.vcxproj.user
+* resources/feature_demos/android/native_subclass/proguard-project.txt
+* resources/feature_demos/android/native_subclass/project.properties
+* resources/feature_demos/android/native_subclass/res/
+* resources/feature_demos/android/native_subclass/res/drawable/
+* resources/feature_demos/android/native_subclass/res/drawable/icon.png
+* resources/feature_demos/android/native_subclass/res/values/
+* resources/feature_demos/android/native_subclass/res/values/strings.xml
+* resources/feature_demos/android/native_subclass/src/
+* resources/feature_demos/android/native_subclass/src/com/
+* resources/feature_demos/android/native_subclass/src/com/nvidia/
+* resources/feature_demos/android/native_subclass/src/com/nvidia/devtech/
+* resources/feature_demos/android/native_subclass/src/com/nvidia/devtech/NativeSubclass/
+* resources/feature_demos/android/native_subclass/src/com/nvidia/devtech/NativeSubclass/NativeSubclass.java
+* resources/feature_demos/android/simple_jni/
+* resources/feature_demos/android/simple_jni/.classpath
+* resources/feature_demos/android/simple_jni/.cproject
+* resources/feature_demos/android/simple_jni/.project
+* resources/feature_demos/android/simple_jni/.settings/
+* resources/feature_demos/android/simple_jni/.settings/org.eclipse.jdt.core.prefs
+* resources/feature_demos/android/simple_jni/AndroidManifest.xml
+* resources/feature_demos/android/simple_jni/SimpleJNI.vcxproj
+* resources/feature_demos/android/simple_jni/SimpleJNI.vcxproj.filters
+* resources/feature_demos/android/simple_jni/SimpleJNI.vcxproj.user
+* resources/feature_demos/android/simple_jni/assets/
+* resources/feature_demos/android/simple_jni/assets/courier+lucida_256.abc
+* resources/feature_demos/android/simple_jni/assets/courier+lucida_256.dds
+* resources/feature_demos/android/simple_jni/assets/font.frag
+* resources/feature_demos/android/simple_jni/assets/font.vert
+* resources/feature_demos/android/simple_jni/assets/utahcond+bold_1024.abc
+* resources/feature_demos/android/simple_jni/assets/utahcond+bold_1024.dds
+* resources/feature_demos/android/simple_jni/build.xml
+* resources/feature_demos/android/simple_jni/jni/
+* resources/feature_demos/android/simple_jni/jni/Android.mk
+* resources/feature_demos/android/simple_jni/jni/Application.mk
+* resources/feature_demos/android/simple_jni/jni/engine.cpp
+* resources/feature_demos/android/simple_jni/jni/engine.h
+* resources/feature_demos/android/simple_jni/jni/main.cpp
+* resources/feature_demos/android/simple_jni/proguard-project.txt
+* resources/feature_demos/android/simple_jni/project.properties
+* resources/feature_demos/android/simple_jni/res/
+* resources/feature_demos/android/simple_jni/res/drawable/
+* resources/feature_demos/android/simple_jni/res/drawable/icon.png
+* resources/feature_demos/android/simple_jni/res/values/
+* resources/feature_demos/android/simple_jni/res/values/strings.xml
+* resources/feature_demos/android/simple_jni/src/
+* resources/feature_demos/android/simple_jni/src/do_not_remove.txt
+* resources/feature_demos/input/
+* resources/feature_demos/input/native_accelerometer/
+* resources/feature_demos/input/native_accelerometer/.classpath
+* resources/feature_demos/input/native_accelerometer/.cproject
+* resources/feature_demos/input/native_accelerometer/.project
+* resources/feature_demos/input/native_accelerometer/.settings/
+* resources/feature_demos/input/native_accelerometer/.settings/org.eclipse.jdt.core.prefs
+* resources/feature_demos/input/native_accelerometer/AndroidManifest.xml
+* resources/feature_demos/input/native_accelerometer/NativeAccelerometer.vcxproj
+* resources/feature_demos/input/native_accelerometer/NativeAccelerometer.vcxproj.filters
+* resources/feature_demos/input/native_accelerometer/NativeAccelerometer.vcxproj.user
+* resources/feature_demos/input/native_accelerometer/assets/
+* resources/feature_demos/input/native_accelerometer/assets/arrow.frag
+* resources/feature_demos/input/native_accelerometer/assets/arrow.vert
+* resources/feature_demos/input/native_accelerometer/assets/courier+lucida_256.abc
+* resources/feature_demos/input/native_accelerometer/assets/courier+lucida_256.dds
+* resources/feature_demos/input/native_accelerometer/assets/font.frag
+* resources/feature_demos/input/native_accelerometer/assets/font.vert
+* resources/feature_demos/input/native_accelerometer/assets/utahcond+bold_1024.abc
+* resources/feature_demos/input/native_accelerometer/assets/utahcond+bold_1024.dds
+* resources/feature_demos/input/native_accelerometer/build.xml
+* resources/feature_demos/input/native_accelerometer/jni/
+* resources/feature_demos/input/native_accelerometer/jni/Android.mk
+* resources/feature_demos/input/native_accelerometer/jni/Application.mk
+* resources/feature_demos/input/native_accelerometer/jni/arrow.cpp
+* resources/feature_demos/input/native_accelerometer/jni/arrow.h
+* resources/feature_demos/input/native_accelerometer/jni/engine.cpp
+* resources/feature_demos/input/native_accelerometer/jni/engine.h
+* resources/feature_demos/input/native_accelerometer/jni/main.cpp
+* resources/feature_demos/input/native_accelerometer/proguard-project.txt
+* resources/feature_demos/input/native_accelerometer/project.properties
+* resources/feature_demos/input/native_accelerometer/res/
+* resources/feature_demos/input/native_accelerometer/res/drawable/
+* resources/feature_demos/input/native_accelerometer/res/drawable/icon.png
+* resources/feature_demos/input/native_accelerometer/res/values/
+* resources/feature_demos/input/native_accelerometer/res/values/strings.xml
+* resources/feature_demos/input/native_accelerometer/src/
+* resources/feature_demos/input/native_accelerometer/src/do_not_remove.txt
+* resources/feature_demos/input/native_gamepad/
+* resources/feature_demos/input/native_gamepad/.classpath
+* resources/feature_demos/input/native_gamepad/.cproject
+* resources/feature_demos/input/native_gamepad/.project
+* resources/feature_demos/input/native_gamepad/.settings/
+* resources/feature_demos/input/native_gamepad/.settings/org.eclipse.jdt.core.prefs
+* resources/feature_demos/input/native_gamepad/AndroidManifest.xml
+* resources/feature_demos/input/native_gamepad/NativeGamepad.vcxproj
+* resources/feature_demos/input/native_gamepad/NativeGamepad.vcxproj.filters
+* resources/feature_demos/input/native_gamepad/NativeGamepad.vcxproj.user
+* resources/feature_demos/input/native_gamepad/assets/
+* resources/feature_demos/input/native_gamepad/assets/courier+lucida_256.abc
+* resources/feature_demos/input/native_gamepad/assets/courier+lucida_256.dds
+* resources/feature_demos/input/native_gamepad/assets/font.frag
+* resources/feature_demos/input/native_gamepad/assets/font.vert
+* resources/feature_demos/input/native_gamepad/assets/utahcond+bold_1024.abc
+* resources/feature_demos/input/native_gamepad/assets/utahcond+bold_1024.dds
+* resources/feature_demos/input/native_gamepad/build.xml
+* resources/feature_demos/input/native_gamepad/jni/
+* resources/feature_demos/input/native_gamepad/jni/Android.mk
+* resources/feature_demos/input/native_gamepad/jni/Application.mk
+* resources/feature_demos/input/native_gamepad/jni/engine.cpp
+* resources/feature_demos/input/native_gamepad/jni/engine.h
+* resources/feature_demos/input/native_gamepad/jni/main.cpp
+* resources/feature_demos/input/native_gamepad/jni/nv_axis_mappings.cpp
+* resources/feature_demos/input/native_gamepad/jni/nv_axis_mappings.h
+* resources/feature_demos/input/native_gamepad/jni/nv_button_mappings.cpp
+* resources/feature_demos/input/native_gamepad/jni/nv_button_mappings.h
+* resources/feature_demos/input/native_gamepad/jni/nv_gamepad_jni.cpp
+* resources/feature_demos/input/native_gamepad/jni/nv_gamepad_jni.h
+* resources/feature_demos/input/native_gamepad/proguard-project.txt
+* resources/feature_demos/input/native_gamepad/project.properties
+* resources/feature_demos/input/native_gamepad/res/
+* resources/feature_demos/input/native_gamepad/res/drawable/
+* resources/feature_demos/input/native_gamepad/res/drawable/icon.png
+* resources/feature_demos/input/native_gamepad/res/values/
+* resources/feature_demos/input/native_gamepad/res/values/strings.xml
+* resources/feature_demos/input/native_gamepad/src/
+* resources/feature_demos/input/native_gamepad/src/com/
+* resources/feature_demos/input/native_gamepad/src/com/nvidia/
+* resources/feature_demos/input/native_gamepad/src/com/nvidia/devtech/
+* resources/feature_demos/input/native_gamepad/src/com/nvidia/devtech/NativeGamepad/
+* resources/feature_demos/input/native_gamepad/src/com/nvidia/devtech/NativeGamepad/NativeGamepad.java
+* resources/feature_demos/input/native_multitouch/
+* resources/feature_demos/input/native_multitouch/.classpath
+* resources/feature_demos/input/native_multitouch/.cproject
+* resources/feature_demos/input/native_multitouch/.project
+* resources/feature_demos/input/native_multitouch/.settings/
+* resources/feature_demos/input/native_multitouch/.settings/org.eclipse.jdt.core.prefs
+* resources/feature_demos/input/native_multitouch/AndroidManifest.xml
+* resources/feature_demos/input/native_multitouch/NativeMultitouch.vcxproj
+* resources/feature_demos/input/native_multitouch/NativeMultitouch.vcxproj.filters
+* resources/feature_demos/input/native_multitouch/NativeMultitouch.vcxproj.user
+* resources/feature_demos/input/native_multitouch/assets/
+* resources/feature_demos/input/native_multitouch/assets/courier+lucida_256.abc
+* resources/feature_demos/input/native_multitouch/assets/courier+lucida_256.dds
+* resources/feature_demos/input/native_multitouch/assets/focus_crosshair.dds
+* resources/feature_demos/input/native_multitouch/assets/font.frag
+* resources/feature_demos/input/native_multitouch/assets/font.vert
+* resources/feature_demos/input/native_multitouch/assets/utahcond+bold_1024.abc
+* resources/feature_demos/input/native_multitouch/assets/utahcond+bold_1024.dds
+* resources/feature_demos/input/native_multitouch/build.xml
+* resources/feature_demos/input/native_multitouch/jni/
+* resources/feature_demos/input/native_multitouch/jni/Android.mk
+* resources/feature_demos/input/native_multitouch/jni/Application.mk
+* resources/feature_demos/input/native_multitouch/jni/engine.cpp
+* resources/feature_demos/input/native_multitouch/jni/engine.h
+* resources/feature_demos/input/native_multitouch/jni/main.cpp
+* resources/feature_demos/input/native_multitouch/proguard-project.txt
+* resources/feature_demos/input/native_multitouch/project.properties
+* resources/feature_demos/input/native_multitouch/res/
+* resources/feature_demos/input/native_multitouch/res/drawable/
+* resources/feature_demos/input/native_multitouch/res/drawable/icon.png
+* resources/feature_demos/input/native_multitouch/res/values/
+* resources/feature_demos/input/native_multitouch/res/values/strings.xml
+* resources/feature_demos/input/native_multitouch/src/
+* resources/feature_demos/input/native_multitouch/src/do_not_remove.txt
+* resources/feature_demos/native_basic/
+* resources/feature_demos/native_basic/.classpath
+* resources/feature_demos/native_basic/.cproject
+* resources/feature_demos/native_basic/.project
+* resources/feature_demos/native_basic/.settings/
+* resources/feature_demos/native_basic/.settings/org.eclipse.jdt.core.prefs
+* resources/feature_demos/native_basic/AndroidManifest.xml
+* resources/feature_demos/native_basic/NativeBasic.vcxproj
+* resources/feature_demos/native_basic/NativeBasic.vcxproj.filters
+* resources/feature_demos/native_basic/NativeBasic.vcxproj.user
+* resources/feature_demos/native_basic/assets/
+* resources/feature_demos/native_basic/assets/courier+lucida_256.abc
+* resources/feature_demos/native_basic/assets/courier+lucida_256.dds
+* resources/feature_demos/native_basic/assets/font.frag
+* resources/feature_demos/native_basic/assets/font.vert
+* resources/feature_demos/native_basic/assets/utahcond+bold_1024.abc
+* resources/feature_demos/native_basic/assets/utahcond+bold_1024.dds
+* resources/feature_demos/native_basic/build.xml
+* resources/feature_demos/native_basic/jni/
+* resources/feature_demos/native_basic/jni/Android.mk
+* resources/feature_demos/native_basic/jni/Application.mk
+* resources/feature_demos/native_basic/jni/engine.cpp
+* resources/feature_demos/native_basic/jni/engine.h
+* resources/feature_demos/native_basic/jni/main.cpp
+* resources/feature_demos/native_basic/proguard-project.txt
+* resources/feature_demos/native_basic/project.properties
+* resources/feature_demos/native_basic/res/
+* resources/feature_demos/native_basic/res/drawable/
+* resources/feature_demos/native_basic/res/drawable/icon.png
+* resources/feature_demos/native_basic/res/values/
+* resources/feature_demos/native_basic/res/values/strings.xml
+* resources/feature_demos/native_basic/src/
+* resources/feature_demos/native_basic/src/do_not_remove.txt
+* resources/feature_demos/native_globe/
+* resources/feature_demos/native_globe/.classpath
+* resources/feature_demos/native_globe/.cproject
+* resources/feature_demos/native_globe/.project
+* resources/feature_demos/native_globe/.settings/
+* resources/feature_demos/native_globe/.settings/org.eclipse.jdt.core.prefs
+* resources/feature_demos/native_globe/AndroidManifest.xml
+* resources/feature_demos/native_globe/NativeGlobe.vcxproj
+* resources/feature_demos/native_globe/NativeGlobe.vcxproj.filters
+* resources/feature_demos/native_globe/NativeGlobe.vcxproj.user
+* resources/feature_demos/native_globe/assets/
+* resources/feature_demos/native_globe/assets/cloud.frag
+* resources/feature_demos/native_globe/assets/cloud.vert
+* resources/feature_demos/native_globe/assets/courier+lucida_256.abc
+* resources/feature_demos/native_globe/assets/courier+lucida_256.dds
+* resources/feature_demos/native_globe/assets/earth_citylights.R5G6B5.mp3
+* resources/feature_demos/native_globe/assets/earth_clouds.R5G6B5.mp3
+* resources/feature_demos/native_globe/assets/earth_color.R5G6B5.mp3
+* resources/feature_demos/native_globe/assets/earth_heightmap.RGBA8.mp3
+* resources/feature_demos/native_globe/assets/font.frag
+* resources/feature_demos/native_globe/assets/font.vert
+* resources/feature_demos/native_globe/assets/globe.frag
+* resources/feature_demos/native_globe/assets/globe.vert
+* resources/feature_demos/native_globe/assets/music.m4a
+* resources/feature_demos/native_globe/assets/pause_screen.dds
+* resources/feature_demos/native_globe/assets/quit_screen.dds
+* resources/feature_demos/native_globe/assets/splash_screen.dds
+* resources/feature_demos/native_globe/assets_src/
+* resources/feature_demos/native_globe/assets_src/earth_citylights.jpg
+* resources/feature_demos/native_globe/assets_src/earth_clouds.jpg
+* resources/feature_demos/native_globe/assets_src/earth_color.jpg
+* resources/feature_demos/native_globe/assets_src/earth_heightmap.jpg
+* resources/feature_demos/native_globe/build.xml
+* resources/feature_demos/native_globe/docs/
+* resources/feature_demos/native_globe/docs/native_globe.pdf
+* resources/feature_demos/native_globe/jni/
+* resources/feature_demos/native_globe/jni/Android.mk
+* resources/feature_demos/native_globe/jni/Application.mk
+* resources/feature_demos/native_globe/jni/GlobeApp.cpp
+* resources/feature_demos/native_globe/jni/GlobeApp.h
+* resources/feature_demos/native_globe/jni/GlobeDefines.h
+* resources/feature_demos/native_globe/jni/GlobeUtil.cpp
+* resources/feature_demos/native_globe/jni/GlobeUtil.h
+* resources/feature_demos/native_globe/jni/NvSLESPlayer.cpp
+* resources/feature_demos/native_globe/jni/NvSLESPlayer.h
+* resources/feature_demos/native_globe/jni/engine.cpp
+* resources/feature_demos/native_globe/jni/engine.h
+* resources/feature_demos/native_globe/jni/native_globe.cpp
+* resources/feature_demos/native_globe/proguard-project.txt
+* resources/feature_demos/native_globe/project.properties
+* resources/feature_demos/native_globe/res/
+* resources/feature_demos/native_globe/res/drawable/
+* resources/feature_demos/native_globe/res/drawable/icon.png
+* resources/feature_demos/native_globe/res/values/
+* resources/feature_demos/native_globe/res/values/strings.xml
+* resources/feature_demos/native_globe/src/
+* resources/feature_demos/native_globe/src/do_not_remove.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* jni/ => app/src/main/jni/
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="fr.kesk.gl"
+      android:versionCode="1"
+      android:versionName="1.0">
+      
+    <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="17"/>
+    
+    <!-- 
+    		NATIVE GL APPLICATION
+    			- main entry point in jni/main.cpp
+    			- application code in GlElement instance (see main.cpp)
+    			- C++ EGL
+    			- Bridge Native -> Java available
+     -->
+    <application android:label="@string/app_name" 
+        			android:icon="@drawable/ic_launcher" 
+        			android:allowBackup="false"
+        			android:hasCode="false"
+        			android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+        			        
+        <activity android:name="android.app.NativeActivity"
+                  android:label="@string/app_name">
+            <meta-data android:name="android.app.lib_name" android:value="keskgl_app" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+    
+    <!-- 
+    		JAVA GL APPLICATION
+    			- main entry point in fr/kesk/gl/MainActivity.java
+    			- application code in GlElement instance set below (see <meta-data/>)
+    			- JNI EGL
+    			- Bridge Java -> Native available
+    
+     <application android:label="@string/app_name" 
+        			android:icon="@drawable/ic_launcher" 
+        			android:allowBackup="false"
+        			android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+        			        
+        <activity android:name=".MainActivity"
+                  android:label="@string/app_name">
+            <meta-data android:name="fr.kesk.gl.renderer" android:value="fr.kesk.gl.samples.s2_program.Renderer" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>-->
+    
+    
+</manifest>
